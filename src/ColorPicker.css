@@ -1,0 +1,40 @@
+.color-picker {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  button {
+    background-color: #0074d9;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .color-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+  
+  .color-square {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .color-square:hover {
+    border: 1px solid #0074d9;
+  }
+  
+  .selected-color {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
